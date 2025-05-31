@@ -3,77 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Практическое применение QR-кодов</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.8;
-    }
+  <title>QR-коды: надёжность и применение</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="C:\$Admin\sayt\qr-icon.jpg" type="image/jpg">
 
-    header {
-      background-color: #4e48c9;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 12px;
-    }
-
-    h2 {
-      color: #4e48c9;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      text-align: center;
-      margin: 30px 0;
-      color: #777;
-    }
-
-    .top-image {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      border-bottom: 5px solid #4e48c9;
-    }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  <header>
-    
-    <h1>Рекомендации по созданию надежных QR-кодов</h1>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="C:\$Admin\sayt\qr-icon.jpg" alt="QR Logo" width="60" height="60">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#about">О QR-кодах</a></li>
+          <li><a href="#tips">Рекомендации</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <ul>
-        <li><strong>Выбирайте подходящий уровень коррекции ошибок.</strong> Чем выше уровень коррекции, тем устойчивее QR-код к повреждениям, но тем он сложнее.</li>
-        <li><strong>Убедитесь в достаточном контрасте.</strong> Темные пиксели на светлом фоне обеспечивают лучшую читаемость.</li>
-        <li><strong>Избегайте искажений и поворотов.</strong> QR-код должен быть прямым и не деформированным.</li>
-        <li><strong>Оставляйте тихую зону.</strong> Вокруг QR-кода должен быть свободный от графики промежуток.</li>
-        <li><strong>Проверяйте код перед публикацией.</strong> Используйте несколько приложений для сканирования, чтобы убедиться, что он работает.</li>
-        <li><strong>Учитывайте размер и плотность.</strong> Для кодов с большим объемом информации используйте более высокое разрешение.</li>
-        <li><strong>Сохраняйте читаемость при печати.</strong> Избегайте бликов, смазывания и неправильной резкости.</li>
-        <li><strong>Используйте проверенные генераторы.</strong> Выбирайте надежные сервисы, которые генерируют качественные коды.</li>
-      </ul>
-    </section>
-  </main>
+  <section class="hero">
+    <div class="container">
+      <h2>QR-коды в современном мире</h2>
+      <h1>Практическое применение и надёжность</h1>
+      <p>Узнайте, как создавать читаемые и устойчивые к повреждениям QR-коды</p>
+    </div>
+  </section>
 
-  <footer>
-    &copy; 2025 QR-проект | Колледж телекоммуникаций
+  <section id="about" class="about">
+    <div class="container">
+      <div class="text">
+        <h2>Что такое QR-код?</h2>
+        <p>QR-код (Quick Response) — это двумерный штрихкод, который считывается камерой и содержит информацию: ссылки, текст, контакты и многое другое.</p>
+        <p>Они используются повсеместно — от маркетинга и транспорта до медицины и образования.</p>
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="tips" class="download">
+    <div class="container">
+      <h2>Рекомендации по созданию надежных QR-кодов</h2>
+      <ul class="tips-list">
+        <li><strong>1.</strong> Используйте подходящий уровень коррекции ошибок — от L до H.</li>
+        <li><strong>2.</strong> Контраст между тёмным кодом и светлым фоном обязателен.</li>
+        <li><strong>3.</strong> QR не должен быть искажён или наклонён.</li>
+        <li><strong>4.</strong> Оставьте "тихую зону" вокруг кода (без текста и графики).</li>
+        <li><strong>5.</strong> Проверьте работу кода разными приложениями.</li>
+        <li><strong>6.</strong> Учитывайте плотность и размер при печати.</li>
+        <li><strong>7.</strong> Избегайте бликов и размытия при сканировании.</li>
+        <li><strong>8.</strong> Используйте проверенные генераторы QR-кодов.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 QR-проект | Колледж телекоммуникаций</p>
+    </div>
   </footer>
 </body>
 </html>
